@@ -1,3 +1,5 @@
-*.pyc
-*.pyo
 .*.swp
+*.py[co]
+/build
+/dist
+/src/zyzz.egg-info
