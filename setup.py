@@ -6,7 +6,7 @@ def read(fname):
 
 setup(
     name = 'zyzz',
-    version = '1.0.0',
+    version = '1.0.1',
     description = u'Python util modules',
     long_description = read('README.rst'),
     author = 'Dmitry Bashkatov',
@@ -16,7 +16,6 @@ setup(
         'Development Status :: 4 - Beta',
         'Environment :: Console', 'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
-        'Topic :: Software Development :: Version Control',
         'Topic :: Utilities',
     ],
     package_dir = {'': 'src'},
